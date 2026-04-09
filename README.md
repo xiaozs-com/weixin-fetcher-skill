@@ -1,8 +1,6 @@
-# 微信公众号文章获取 Skill
+﻿# 微信公众号文章获取 Skill
 
 > 获取微信公众号文章正文内容，用于 AI Agent 工作流
-
-[![OpenClaw Skill](https://img.shields.io/badge/OpenClaw-Skill-blue)](https://github.com/xiaozs-com/weixin-fetcher-skill)
 
 ## 功能
 
@@ -51,8 +49,8 @@ print(result['content'][:500])
 
 | 文件 | 说明 |
 |------|------|
-| rticle_content_weixin.txt | 文章标题和正文 |
-| rticle_screenshot_weixin.png | 页面截图 |
+| article_content_weixin.txt | 文章标题和正文 |
+| article_screenshot_weixin.png | 页面截图 |
 
 ## 系统要求
 
