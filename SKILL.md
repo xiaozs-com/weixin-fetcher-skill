@@ -42,7 +42,7 @@ python "{skill_dir}/scripts/fetch_weixin.py" "https://mp.weixin.qq.com/s/xxxxx" 
 
 ## 工作原理
 
-1. 启动 Chrome（无头模式），URL 追加 `?_t=毫秒时间戳` 绕过微信 CDN 缓存
+1. 启动 Chrome（默认有头模式），URL 追加 `?_t=毫秒时间戳` 绕过微信 CDN 缓存
 2. 等待 `#js_content` 加载，提取正文文本
 3. 输出 Markdown 文件 + 截图到指定目录
 
