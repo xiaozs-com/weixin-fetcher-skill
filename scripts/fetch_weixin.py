@@ -2,6 +2,8 @@
 """
 微信公众号文章获取脚本
 使用 DrissionPage 控制 Chrome 浏览器获取文章内容
+
+Author: David & Agent
 """
 
 import sys
